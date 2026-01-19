@@ -1,0 +1,88 @@
+/* App.css - Octofit Tracker custom styles */
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8f9fa 100%);
+  color: #23395d;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #4f8cff 0%, #357ae8 100%) !important;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.08);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.navbar-brand img {
+  height: 36px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe082 !important;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(79,140,255,0.07);
+  border: none;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  color: #23395d;
+}
+
+.table thead {
+  background: #4f8cff;
+  color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f0ff;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #d0e2ff;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  color: #357ae8;
+}
+
+.btn-primary {
+  background-color: #4f8cff;
+  border-color: #4f8cff;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.10);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #357ae8;
+  border-color: #357ae8;
+  color: #ffe082;
+}
+
+a {
+  color: #4f8cff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #357ae8;
+  text-decoration: underline;
+}
